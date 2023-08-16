@@ -1,14 +1,14 @@
 # ID-12LA
 
 
-#RFID Reader Application
+#RFID Reader Application#
 
 Este é um codigo simples escrito em C que interage com um leitor RFID usando a interface UART em um microcontrolador ESP32.
 
 Ele lê os dados do cartão RFID, calcula as somas de verificação e controla os LEDs com base nos dados específicos do cartão.
 
 
-#Características
+#Características#
 
 *Inicializa a comunicação UART com o leitor RFID.
 
