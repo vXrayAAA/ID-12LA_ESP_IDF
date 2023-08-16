@@ -1,14 +1,14 @@
-# ID-12LA ✅
+# ID-12LA✅
 
 
-# RFID Reader Application ✅
+# RFID Reader Application✅
 
 Este é um codigo simples escrito em C que interage com um leitor RFID usando a interface UART em um microcontrolador ESP32.
 
 Ele lê os dados do cartão RFID, calcula as somas de verificação e controla os LEDs com base nos dados específicos do cartão.
 
 
-# Características ✅
+# Características✅
 
 * Inicializa a comunicação UART com o leitor RFID.
 
@@ -19,7 +19,7 @@ Ele lê os dados do cartão RFID, calcula as somas de verificação e controla o
 * Controla os LEDs com base nos dados do cartão reconhecido.
 
 
-# Configuração de hardware ✅
+# Configuração de hardware✅
 
 * Conecte o pino TX2 (Transmitir) do ESP32 ao pino RX do leitor RFID.
 
@@ -27,7 +27,7 @@ Ele lê os dados do cartão RFID, calcula as somas de verificação e controla o
 
 * Conecte os pinos LED_RED e LED_GREEN aos LEDs correspondentes.
 
-# Como funciona ✅
+# Como funciona✅
 * O aplicativo inicializa a comunicação UART com o leitor RFID usando UART2.
 
 * A tarefa rfid_task é criada, que lê continuamente os dados do UART e os processa.
@@ -40,7 +40,7 @@ Ele lê os dados do cartão RFID, calcula as somas de verificação e controla o
 
 * O codigo espera por um curto período e depois repete o processo.
 
-# Executando o aplicativo ✅
+# Executando o aplicativo✅
 * Configure as conexões de hardware conforme descrito na seção "Configuração de hardware".
 
 * Atualize o microcontrolador ESP32 com este aplicativo.
@@ -48,7 +48,7 @@ Ele lê os dados do cartão RFID, calcula as somas de verificação e controla o
 * Abra um terminal serial (por exemplo, PuTTY ou Tera Term) com uma taxa de transmissão de 9600 para monitorar a saída do 
  aplicativo.
 
-# Notas ✅
+# Notas✅
 
 * Este aplicativo demonstra a funcionalidade básica de leitura e processamento de dados de cartão RFID usando UART em um microcontrolador ESP32.
 
