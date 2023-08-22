@@ -23,7 +23,7 @@ Ele lê os dados do cartão RFID, calcula as somas de verificação e controla o
 
 * Conecte o pino TX2 (Transmitir) do ESP32 ao pino RX do leitor RFID.
 
-* Conecte o pino RX2 (Receive) do ESP32 ao pino TX do leitor RFID.
+* Conecte o pino RX2 (Receber) do ESP32 ao pino TX do leitor RFID.
 
 * Conecte os pinos LED_RED e LED_GREEN aos LEDs correspondentes.
 
