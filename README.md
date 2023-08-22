@@ -54,3 +54,7 @@ Ele lê os dados do cartão RFID, calcula as somas de verificação e controla o
 
 * Você pode estender o aplicativo para incluir recursos mais avançados, como armazenar dados de cartões autorizados em um banco de dados e implementar controle de acesso com base em diferentes tipos de cartões.
 Certifique-se de ter a estrutura de desenvolvimento ESP-IDF instalada para compilar e atualizar este aplicativo no seu ESP32.
+
+
+# Bibliotecas:
+ESP-IDF V4.4/V5.0/V5.1.
